@@ -38,7 +38,6 @@ Required files:
 - vpesg4k_train_1000.json
 - vpesg4k_val_1000.csv
 - vpesg4k_test_2000.csv
-- submission_threshold.csv
 
 ---
 
