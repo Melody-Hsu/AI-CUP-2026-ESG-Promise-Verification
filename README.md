@@ -27,7 +27,6 @@ AI-CUP-2026-ESG-Promise-Verification/
 
 ├── AI_CUP_2026_ESG_Promise_Verification_Final.ipynb
 ├── README.md
-├── requirements.txt
 └── .gitignore
 ```
 
