@@ -41,8 +41,10 @@ Please download the official dataset from the competition website before running
 Required files:
 
 - vpesg4k_train_1000.json
+- vpesg4k_test_2000.json
 - vpesg4k_val_1000.csv
 - vpesg4k_test_2000.csv
+
 
 > **Note**
 >
