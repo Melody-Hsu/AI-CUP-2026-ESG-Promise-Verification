@@ -1,37 +1,43 @@
 # AI CUP 2026 ESG Promise Verification
 
-This repository contains the source code for our solution to the AI CUP 2026 ESG Promise Verification Competition.
+This repository contains the source code for our solution to the **AI CUP 2026 ESG Promise Verification Competition**.
 
 ---
 
-## Environment
+# Environment
 
-- Python 3.x
-- Google Colab
-- NVIDIA A100 GPU
-- PyTorch
-- Hugging Face Transformers
-- Pandas
-- NumPy
-- Scikit-learn
+- Platform: Google Colab
+- Operating System: Linux (Google Colab)
+- Programming Language: Python
+- Deep Learning Framework: PyTorch
+- Pretrained Model: bert-base-chinese
+- Libraries:
+  - transformers
+  - pandas
+  - numpy
+  - scikit-learn
+  - tqdm
 
 ---
 
-## Repository Structure
+# Repository
 
+```
 AI-CUP-2026-ESG-Promise-Verification/
 
 ├── AI_CUP_2026_ESG_Promise_Verification_Final.ipynb
-
 ├── README.md
-
-└── requirements.txt
+├── requirements.txt
+└── .gitignore
+```
 
 ---
 
-## Required Files
+# Required Files
 
-Before running the notebook, please prepare the following official competition files.
+This notebook requires the **official AI CUP 2026 VeriPromiseESG competition dataset**.
+
+Please download the official dataset from the competition website before running this notebook.
 
 Required files:
 
@@ -39,37 +45,48 @@ Required files:
 - vpesg4k_val_1000.csv
 - vpesg4k_test_2000.csv
 
+> **Note**
+>
+> The official competition dataset is **NOT included** in this repository.
+>
+> Please follow the competition regulations regarding dataset usage and distribution.
+
 ---
 
-## Google Colab Instructions
-
-Before executing the notebook:
+# How to Run
 
 1. Open Google Colab.
-2. Upload the notebook.
-3. Upload all required dataset files listed above.
-4. Upload the trained model weights (.pt files) if inference is required.
-5. Execute the notebook from the first cell.
-
-⚠️ The notebook requires all official dataset files to be uploaded before execution.
-Otherwise, FileNotFoundError will occur.
+2. Upload **AI_CUP_2026_ESG_Promise_Verification_Final.ipynb**.
+3. Upload the required official dataset files listed above into the current Colab session.
+4. Run all cells from the beginning.
 
 ---
 
-## Model
+# Model
 
-- Pretrained Model: bert-base-chinese
-- Framework: PyTorch
-- Architecture:
-  - BERT Encoder
-  - CLS + Mean Pooling
-  - Multi-task Learning
-  - 4 Classification Heads
-  - 5-Fold Weighted Ensemble
+- bert-base-chinese
+- CLS + Mean Pooling
+- Multi-task Learning
+- Four Classification Heads
+- Weighted Focal Loss
+- 5-Fold Cross Validation
+- Weighted Ensemble
 
 ---
 
-## Output
+# Input
+
+Official AI CUP ESG dataset
+
+Input files:
+
+- vpesg4k_train_1000.json
+- vpesg4k_val_1000.csv
+- vpesg4k_test_2000.csv
+
+---
+
+# Output
 
 The notebook generates:
 
@@ -77,7 +94,7 @@ The notebook generates:
 
 ---
 
-## Competition
+# Competition
 
 AI CUP 2026 ESG Promise Verification Competition
 
@@ -87,6 +104,6 @@ https://veripromiseesg.github.io/
 
 ---
 
-## Author
+# Author
 
 Melody Hsu
